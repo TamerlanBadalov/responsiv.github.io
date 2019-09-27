@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;}
+.menu-item{margin: 0 57px;}
+.menu-item a{color:black;
+font-size: 22px;
+font-weight: 700;}
+header{ background: #fcdb00;
+    color: #010101;
+padding-top: 58px;}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000}
+.intro-p{color: #555555;
+    width: 400px;}
+.intro{margin-top:117px}
+.icon-item{margin:15px 25px;}
+.intro-text{padding-top: 10px;
+line-height:1.2em;
+padding-bottom: 15px;}
+.ipad{display: block;
+margin: 60px auto;}
+.title{text-align: center;
+padding-top: 100px;}
+.title-p{font-size: 20px;
+width: 780px;
+margin: 0 auto;
+ padding-bottom:70px;}
+.part-one{display:flex;
+align-items: flex-start;
+margin:10px 10px;
+padding-bottom: 30px}
+.icon-text{color: #898989}
+.buttom-section{text-align: center;
+padding-top: 50px;
+padding-bottom: 90px}
+.buttom-text{  font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+color:white;}
+.buttom-section{background-color: black;}
+.buttom-header{color:#fcdb00}
+.form__input{ background: #fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    margin-right:21px;
+    border: 0;
+    padding-left:23px;
+    outline: none;}
+.form__btn{background-color:#fcdb00;
+color: black;
+font-weight: 600;
+padding:14px 0;
+width: 126px;
+border-radius: 5px;
+border: none;
+cursor: pointer;}
+.footer{color: #fff;
+    font-size: 16px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+padding-top: 50px}
+
+@media screen and (max-width: 992px) {
+    .logo{display:block;
+        margin: 0 auto;
+        margin-bottom: 30px;}
+    .intro{text-align: center}
+    .intro-p{width: auto;
+    margin: 0 auto}
+    .icons{justify-content: center}
+  .title-p{width: auto}
+    .buttom-text{width: auto}
+    .form__input{margin-right: 0px;
+    width: 100%}}
+.form__btn{margin-top: 15px;}
+
+@media screen and (max-width: 576px) {
+    .menu{flex-direction: column;
+    text-align: center;}
+    .menu-item{margin-bottom: 15px}
+}
